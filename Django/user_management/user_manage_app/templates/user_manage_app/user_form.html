@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% if form.instance.id %}Редактировать{% else %}Создать{% endif %} пользователя</title>
+</head>
+<body>
+    <h1>{% if form.instance.id %}Редактировать{% else %}Создать{% endif %} пользователя</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Сохранить</button>
+    </form>
+    <a href="{% url 'user_list' %}">Назад к списку пользователей</a>
+</body>
+</html>
