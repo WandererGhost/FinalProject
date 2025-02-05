@@ -6,7 +6,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone <URL>
+   git clone <https://github.com/WandererGhost/FinalProject/tree/main>
    cd user_management
 2. Установите зависимости:
    ```bash

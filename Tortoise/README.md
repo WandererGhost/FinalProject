@@ -6,7 +6,7 @@
 ## Установка
 1. Клонируйте репозиторий:
    ```bash
-   git clone <URL_вашего_репозитория>
+   git clone <https://github.com/WandererGhost/FinalProject/tree/main>
 
 2. Установите необходимые зависимости:
     ```bash
